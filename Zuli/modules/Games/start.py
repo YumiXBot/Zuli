@@ -5,7 +5,7 @@ from Zuli import Poki
 
 
 start_txt = """**
-ʜᴇʏ, ɪ ᴀᴍ ᴛʜᴇ ᴘᴏᴋɪ ʙᴏᴛ. ɪ ʜᴀᴠᴇ ᴍᴀɴʏ ɢᴀᴍᴇꜱ ꜰᴏʀ ʏᴏᴜ ᴛᴏ ᴇɴᴊᴏʏ, ᴀɴᴅ ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴄʀᴇᴀᴛᴇᴅ ᴘᴜʀᴇʟʏ ꜰᴏʀ ᴇɴᴛᴇʀᴛᴀɪɴᴍᴇɴᴛ. ᴊᴜꜱᴛ ᴄʟɪᴄᴋ ᴛʜᴇ ɢᴀᴍᴇꜱ ʙᴜᴛᴛᴏɴ ᴀɴᴅ ʜᴀᴠᴇ ꜰᴜɴ ᴘʟᴀʏɪɴɢ.
+ʜᴇʏ, ɪ ᴀᴍ ᴛʜᴇ ɴᴏᴛᴛʏʏ ʙᴏᴛ. ɪ ʜᴀᴠᴇ ᴍᴀɴʏ ɢᴀᴍᴇꜱ ꜰᴏʀ ʏᴏᴜ ᴛᴏ ᴇɴᴊᴏʏ, ᴀɴᴅ ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴄʀᴇᴀᴛᴇᴅ ᴘᴜʀᴇʟʏ ꜰᴏʀ ᴇɴᴛᴇʀᴛᴀɪɴᴍᴇɴᴛ. ᴊᴜꜱᴛ ᴄʟɪᴄᴋ ᴛʜᴇ ɢᴀᴍᴇꜱ ʙᴜᴛᴛᴏɴ ᴀɴᴅ ʜᴀᴠᴇ ꜰᴜɴ ᴘʟᴀʏɪɴɢ.
 **"""
 
 
@@ -15,11 +15,11 @@ start_txt = """**
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("ɢᴀᴍᴇꜱ", url="https://poki.com")
+          InlineKeyboardButton("𝐆ᴀᴍᴇꜱ", url="https://poki.com")
         ],
         [
-          InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/DevsOops"),
-          InlineKeyboardButton("ᴅᴇᴠ", url="https://t.me/iam_daxx"),
+          InlineKeyboardButton("𝐔ᴘᴅᴀᴛᴇs", url="https://t.me/AloneXBots"),
+          InlineKeyboardButton("𝐃ᴇᴠ", url="https://t.me/ALONE_WAS_BOT"),
       
         ]]
     
