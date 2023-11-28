@@ -29,17 +29,9 @@ Zuli = Client(
     bot_token=BOT_TOKEN,
 )
 
-Poki = Client(
-    ":Poki:",
-    api_id=API_ID,
-    api_hash=API_HASH,
-    bot_token=POKI_TOKEN,
-)
-
 async def zuli_bot():
     global BOT_ID, BOT_NAME, BOT_USERNAME
     await Zuli.start()
-    await Poki.start()
     getme = await Zuli.get_me()
     BOT_ID = getme.id
     BOT_USERNAME = getme.username
